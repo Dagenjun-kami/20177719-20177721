@@ -12,7 +12,7 @@ p {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: url(picture/background1.jpg) no-repeat;
+    background: url(picture/background.jpg) no-repeat;
     background-size: cover;
     opacity: 0.7;
 }
