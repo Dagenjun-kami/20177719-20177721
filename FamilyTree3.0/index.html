@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Family Tree</title>
+	<script type="text/javascript" src="d3.v3.min.js"></script>
+	<script type="text/javascript" src="tree.js"></script>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+	<link rel="icon" href="picture/icon.png" type="image/x-icon"/>
+</head>
+<body>
+<div class="background"></div>
+    <div class="container">
+		<div class="container3">
+			<h1>家 庭 树 生 成 器</h1><hr/>
+		</div>
+		<div class="container1">
+
+			<textarea id="text" placeholder="文本格式：
+导师：张三
+2016级博士生：天一、王二、吴五
+2015级硕士生：李四、王五、许六
+2016级硕士生：刘一、李二、李三
+2017级本科生：刘六、琪七、司四
+
+若有多组输入，中间空一行。
+结尾不能有多余的空行"></textarea>
+			<button type="button" onClick="main()"> 创建家庭树</button>
+		</div>
+		<div class="container2">
+			<p id="familyTree"></p>
+		</div>
+	</div>
+</body>
+</html>
